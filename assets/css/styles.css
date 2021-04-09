@@ -1,0 +1,57 @@
+form {
+	padding: 30px;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+form>h1, form>p {
+	text-align: center;
+}
+
+.input-holder {
+	margin: 30px auto;
+}
+
+.btn-holder {
+	margin: 12px auto;
+}
+
+input {
+	width: 100%;
+	box-sizing: border-box;
+	margin-top: 10px;
+	padding: 10px 6px;
+}
+
+button {
+	width: 100%;
+	padding: 10px 6px;
+}
+
+.info {
+	padding: 20px;
+	background-color: yellow;
+	line-height: 30px;
+}
+
+.kv {
+	overflow: hidden;
+}
+
+.kv>div:first-child {
+	float: left;
+}
+
+.kv>div:nth-child(2) {
+	float: right;
+}
+
+.gain {
+	color: rgb(32, 16, 255);
+	font-weight: bold;
+}
+
+.spend {
+	color: rgb(255, 0, 0);
+	font-weight: bold;
+}
