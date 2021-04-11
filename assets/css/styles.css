@@ -4,7 +4,14 @@ form {
 	margin: 0 auto;
 }
 
-form>h1, form>p {
+a {
+	padding: 10px;
+	color: white;
+	background-color: #c4302b;
+	text-decoration: none;
+}
+
+form>h1, form>p, .youtube-note {
 	text-align: center;
 }
 
