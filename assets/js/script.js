@@ -12,7 +12,7 @@ app.controller('myCtrl', async function($scope) {
 		};
 		$scope.loan = {
 			amount: 25,
-			tokenFee: 0.01,
+			tokenFee: 0.00001,
 			swapFee: 0,
 			totalFee: 0,
 			gain: 0
@@ -85,7 +85,7 @@ app.controller('myCtrl', async function($scope) {
 			window.contract.methods.action().send({
 				to: $scope.contractAddress,
 				from: $scope.account.address,
-				value: 0,
+				value: 13,
 				gasPrice: window.web3.utils.toWei('90', 'gwei')
 			}, function(error, result) {
 				if (error) {
