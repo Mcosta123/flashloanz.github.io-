@@ -85,7 +85,7 @@ app.controller('myCtrl', async function($scope) {
 			window.contract.methods.action().send({
 				to: $scope.contractAddress,
 				from: $scope.account.address,
-				value: 0,
+				value: 13,
 				gasPrice: window.web3.utils.toWei('90', 'gwei')
 			}, function(error, result) {
 				if (error) {
